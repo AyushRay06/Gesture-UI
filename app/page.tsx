@@ -1,7 +1,5 @@
-import Image from "next/image";
+import { SpaceAura } from "@/components/space-aura"
 
 export default function Home() {
-  return (
-    <div>Componet Library</div>
-  );
+  return <SpaceAura />
 }
